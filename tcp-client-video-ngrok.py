@@ -5,7 +5,7 @@ import cv2
 # create socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host_ip = 'his or her ngrok ip' # paste your server ip address here
-port = 11950
+port = 11950 # his ngrok port
 client_socket.connect((host_ip, port))  # a tuple
 data = b""
 payload_size = struct.calcsize("Q") # Q: unsigned long long integer(8 bytes)
