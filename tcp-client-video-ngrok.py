@@ -4,7 +4,7 @@ import cv2
 
 # create socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host_ip = 'your ngrok ip' # paste your server ip address here
+host_ip = 'his or her ngrok ip' # paste your server ip address here
 port = 11950
 client_socket.connect((host_ip, port))  # a tuple
 data = b""
